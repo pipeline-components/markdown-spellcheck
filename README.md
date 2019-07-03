@@ -25,7 +25,7 @@ markdown-spellcheck:
   stage: linting
   image: pipelinecomponents/markdown-spellcheck:latest
   script:
-    - markdown-spellcheck --report '**/*.md'
+    - mdspell --report '**/*.md'
 ```
 
 ## Versioning
