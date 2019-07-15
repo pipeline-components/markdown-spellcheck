@@ -1,2 +1,5 @@
 ---
-include: https://gitlab.com/pipeline-components/ci-config/raw/master/pipeline.yml
+include:
+  - project: 'pipeline-components/org/config'
+    ref: master
+    file: pipeline.yml
