@@ -4,5 +4,8 @@ version: v1.13.5
 ignore:
   SNYK-JS-MARKED-174116:
     - '*':
-        reason: None Given
+        reason: No upstream updates available
+  SNYK-JS-MARKED-451540:
+    - '*':
+        reason: No upstream updates available
 patch: {}
