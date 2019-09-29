@@ -1,0 +1,23 @@
+---
+name: "markdown-spellcheck"
+description: "markdown-spellcheck by Pipeline Components"
+author: "Robbert Müller <spam.me@grols.ch>"
+branding:
+  icon: "flag"
+  color: "green"
+inputs:
+  directory:
+    description: "Directory to lint"
+    required: false
+    default: "**/*.md"
+  options:
+    description: "Additional options"
+    required: false
+    default: "--report"
+runs:
+  using: "docker"
+  image: docker://pipelinecomponents/markdown-spellcheck
+  args:
+    - mdspell
+    - "${{ inputs.options }}"
+    - "${{ inputs.directory }}"
