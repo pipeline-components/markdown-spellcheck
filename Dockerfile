@@ -9,6 +9,7 @@ ENV DEFAULTCMD mdspell
 WORKDIR /app/
 
 # Generic
+RUN apk add --no-cache musl=1.1.20-r5
 COPY app /app/
 
 # Node
