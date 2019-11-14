@@ -1,4 +1,4 @@
-FROM pipelinecomponents/base-entrypoint:0.1.1 as entrypoint
+FROM pipelinecomponents/base-entrypoint:0.2.0 as entrypoint
 
 FROM node:12.13.0-alpine
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
