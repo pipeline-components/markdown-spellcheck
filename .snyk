@@ -1,11 +1,18 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.13.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
+  SNYK-JS-LODASH-567746:
+    - markdown-spellcheck > async > lodash:
+        reason: No update available
+        expires: '2020-08-13T07:30:54.298Z'
+    - markdown-spellcheck > inquirer > lodash:
+        reason: No update available
+        expires: '2020-08-13T07:30:54.298Z'
   SNYK-JS-MARKED-174116:
-    - '*':
+    - markdown-spellcheck > marked:
         reason: No upstream updates available
   SNYK-JS-MARKED-451540:
-    - '*':
+    - markdown-spellcheck > marked:
         reason: No upstream updates available
 patch: {}
