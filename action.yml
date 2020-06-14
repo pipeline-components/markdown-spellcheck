@@ -1,5 +1,5 @@
 ---
-name: "markdown-spellcheck"
+name: "pipeline-components-markdown-spellcheck"
 description: "markdown-spellcheck by Pipeline Components"
 author: "Robbert Müller <spam.me@grols.ch>"
 branding:
