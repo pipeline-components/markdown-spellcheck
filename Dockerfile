@@ -1,6 +1,6 @@
 FROM pipelinecomponents/base-entrypoint:0.3.0 as entrypoint
 
-FROM node:12.20.1-alpine
+FROM node:12.20.2-alpine
 COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD mdspell
