@@ -23,7 +23,7 @@ Upstream [Markdown Spellcheck][markdown-spellcheck]
 ```yaml
 markdown-spellcheck:
   stage: linting
-  image: pipelinecomponents/markdown-spellcheck:latest
+  image: registry.gitlab.com/pipeline-components/markdown-spellcheck:latest
   script:
     - mdspell --report '**/*.md'
 ```
