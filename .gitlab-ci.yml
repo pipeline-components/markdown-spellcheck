@@ -1,5 +1,5 @@
 ---
 include:
   - project: 'pipeline-components/org/config'
-    ref: master
+    ref: v1.0.0
     file: pipeline.yml
