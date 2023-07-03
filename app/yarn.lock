@@ -143,9 +143,9 @@ core-util-is@~1.0.0:
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
 
 create-thenable@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/create-thenable/-/create-thenable-1.0.2.tgz#e2031720ccc9575d8cfa31f5c146e762a80c0534"
-  integrity sha512-yk1hts1Z13S2gtW0GAPicV928+VDY3snEi7gJf5hoU5bhruBDuD8U+bF/KwIqpK4UhWBzNkZr/53Qj+eBK5CZQ==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/create-thenable/-/create-thenable-1.0.3.tgz#9bb62be5321ceeb933159f7ee572e35872978591"
+  integrity sha512-R1yGGApyq32WQXPK97z5u8VVfoPWLI7DoJeN9xaexEUk5FZrORNM2YxCuOBsp0cwG5tj9jRz4r0mCDcnPRftRg==
   dependencies:
     object.omit "~2.0.0"
     unique-concat "~0.2.2"
