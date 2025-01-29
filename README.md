@@ -91,7 +91,7 @@ SOFTWARE.
 [gitlabci]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/commits/master
 [issue]: https://gitlab.com/pipeline-components/markdown-spellcheck/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2024.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [pulls-shield]: https://img.shields.io/docker/pulls/pipelinecomponents/markdown-spellcheck.svg
 [releases]: https://gitlab.com/pipeline-components/markdown-spellcheck/tags
