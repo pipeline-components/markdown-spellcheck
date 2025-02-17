@@ -81,14 +81,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/commits/master
-[contributors]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/graphs/master
+[commits]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/commits/main
+[contributors]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/graphs/main
 [dockerhub]: https://hub.docker.com/r/pipelinecomponents/markdown-spellcheck
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg
 [mjrider]: https://gitlab.com/mjrider
 [discord]: https://discord.gg/vhxWFfP
 [gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/markdown-spellcheck.svg
-[gitlabci]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/commits/master
+[gitlabci]: https://gitlab.com/pipeline-components/markdown-spellcheck/-/commits/main
 [issue]: https://gitlab.com/pipeline-components/markdown-spellcheck/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025.svg
