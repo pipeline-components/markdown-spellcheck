@@ -14,7 +14,6 @@
 ## Usage
 
 The image is for running markdown-spellcheck, markdown-spellcheck is installed in /app/ in case you need to customize the install before usage.
-The image is based on alpine:3.8.
 Upstream [Markdown Spellcheck][markdown-spellcheck]
 
 ## Examples
